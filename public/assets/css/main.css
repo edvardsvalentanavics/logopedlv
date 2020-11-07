@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Aileron:700|Open+Sans");
 html {
   overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
   font-size: 38px;
   color: #222222;
   font-weight: 700;
-  font-family: 'Arvo', serif;
+  font-family: 'Aileron', serif;
 }
 
 a {
