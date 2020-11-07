@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Aileron:700|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700|Open+Sans");
 html {
   overflow-x: hidden;
 }
@@ -20,10 +20,10 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-size: 38px;
+  font-size: 35px;
   color: #222222;
-  font-weight: 700;
-  font-family: 'Aileron', serif;
+  font-weight: 100;
+  font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -760,7 +760,7 @@ hr {
 #hero-area .contents .head-title {
   color: #222222;
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 60px;
   margin-bottom: 10px;
 }
