@@ -1,6 +1,6 @@
 
 // Font Family
-@import url('https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Open+Sans');
 html{
   overflow-x: hidden;
 }
@@ -20,10 +20,10 @@ body {
   overflow-x: hidden;
 }
 h1, h2, h3, h4{
-  font-size: 38px;
+  font-size: 35px;
   color: #222222;
-  font-weight: 700;
-  font-family: 'Arvo', serif;
+  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
 }
 a{
 	-webkit-transition: all 0.2s linear;
