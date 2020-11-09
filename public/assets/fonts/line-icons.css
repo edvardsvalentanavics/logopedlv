@@ -945,3 +945,9 @@
 .lni-zoom-out:before {
   content: "\ea32";
 }
+.lni-diamond-alt:before {
+  content: "\ea88";
+}
+.lni-diamond:before {
+  content: "\ea89";
+}
