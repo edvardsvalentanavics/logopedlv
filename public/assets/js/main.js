@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -17,7 +17,7 @@
         }
     });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
       currentClass: 'active'
     });
@@ -44,20 +44,22 @@
         mobile: false
     });
 
-    wow.init();    
+    wow.init();
 
-     /* Testimonials Carousel 
+     /* Testimonials Carousel
     ========================================================*/
     var owl = $("#testimonials");
       owl.owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: true,
         center: true,
         margin: 15,
         slideSpeed: 1000,
         stopOnHover: true,
-        autoPlay: true,
+        autoplay: true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         responsiveClass: true,
         responsiveRefreshRate: true,
         responsive : {
@@ -77,8 +79,8 @@
                 items: 3
             }
         }
-      });  
-      
+      });
+
 
     /* Back Top Link active
     ========================================================*/
@@ -100,6 +102,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
