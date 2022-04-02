@@ -39,19 +39,19 @@
 
     /* WOW Scroll Spy
     ========================================================*/
-     var wow = new WOW({
+    var wow = new WOW({
       //disabled for mobile
         mobile: false
     });
 
     wow.init();
 
-     /* Testimonials Carousel
+    /* Testimonials Carousel
     ========================================================*/
     var owl = $("#testimonials");
       owl.owlCarousel({
         loop: true,
-        nav: true,
+        nav: false,
         dots: true,
         center: true,
         margin: 15,
